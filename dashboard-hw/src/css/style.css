@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+.dashboard__content {
+  width: 100%;
+
+}
+.dashboard-search-section {
+  margin-bottom: 52px;
+}
+.dashboard-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.user-info__add-user-button {
+  width: 44px;
+  height: 44px;
+  background-color: #4339f2;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+.cards {
+  width: 448px;
+  height: 260px;
+}
+
+
+.cards-top-content > p {
+  color: #fff;
+}
+
+.card-top-content > img {
+  width: 30px;
+  height: 30px;
+}
+
+.card-mid-content {
+  margin-top: 60px;
+}
+
+.card-mid-content > p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card-mid-content > h2 {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-bot-content > img {
+  width: 120px;
+  height: 30px;
+}
+
+.card-bot-content > h3 {
+  color: #fff;
+}
+
+.blue-card {
+  background-color: #4339f2;
+}
+
+.red-card {
+  background-color: #ff3a29;
+}
+
+.green-card {
+  background-color: #34b53a;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.user-profile > img {
+  width: 70px;
+  height: 70px;
+}
+
+.user-location {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.4;
+}
+
+.user-stats__profit-blue {
+  color: #4339f2;
+} 
+
